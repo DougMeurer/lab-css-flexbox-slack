@@ -5,3 +5,144 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Tiro+Gurmukhi&display=swap');
+
+* {
+    background-color: #F4F3F4;
+    font-size: 10px;
+}
+
+title {
+    background-color: #2C303F;
+}
+
+.intro {
+    padding: 20px;
+    color: grey;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.logoSlack {
+    margin: 0px 10px;
+    width: 100px;
+}
+
+#button {
+    margin: 10px;
+    width: 100%;
+    height:5rem;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+    color: #192592;
+}
+
+.getStarted {
+    margin: 10px; 20px;
+    width: 100%;
+    height:5rem;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+    color: white;
+    background-color: #192592  ;
+}   
+
+input {
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.8rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 5rem;
+}
+
+.logoGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.partners {
+    border: 20px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.partners > img {
+    width: 100%;
+}
+
+.logoHamburguer {
+    width: 50px
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #2C303F;
+    font-size: 5rem;
+    font-style: initial;
+    font-family: 'Tiro Gurmukhi', serif;
+    padding: 10px 20px;
+}
+
+h2 { 
+    color: #2C303F;
+    font-size: 3.5rem;
+    font-style: initial;
+    font-family: 'Tiro Gurmukhi', serif;
+    margin: 1.5rem;
+}
+
+.signUp {
+    margin: 5px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul > li {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 1.5em;
+}
+
+.footText > p {
+    font-size: 15px;
+}
+
+.usflagLogo {
+    width: 120px;
+}
+
+.lastLogo {
+    width: 120px;
+}
+
+
+
+@media (min-width: 767px) and (max-width: 961px) {
+    * {
+      
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1024px) {
+    * {
+     
+    }
+}
+
+@media (max-width: 1200px) {
+    * {
+        
+    }
+}
